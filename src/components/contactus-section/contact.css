@@ -1,0 +1,18 @@
+.contact-form h1 {
+    color: white;
+}
+
+.contact-form input[type="email"]::placeholder {
+
+    -moz-text-align: right;
+    -ms-text-align: right;
+    -o-text-align: right;
+    -webkit-text-align: right;
+    text-align: right;
+
+    -moz-direction: rtl;
+    -ms-direction: rtl;
+    -o-direction: rtl;
+    -webkit-direction: rtl;
+    direction: rtl !important;
+}
